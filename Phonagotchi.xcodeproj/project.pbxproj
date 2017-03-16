@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35CDAD621E7B4B0700B418F5 /* Default-568h@2x.png.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CDAD611E7B4B0700B418F5 /* Default-568h@2x.png.png */; };
+		35CDAD651E7B4B2200B418F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35CDAD631E7B4B2200B418F5 /* InfoPlist.strings */; };
 		602CAE411984363700C9FE49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602CAE401984363700C9FE49 /* Foundation.framework */; };
 		602CAE431984363700C9FE49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602CAE421984363700C9FE49 /* CoreGraphics.framework */; };
 		602CAE451984363700C9FE49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602CAE441984363700C9FE49 /* UIKit.framework */; };
-		602CAE4B1984363700C9FE49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 602CAE491984363700C9FE49 /* InfoPlist.strings */; };
 		602CAE4D1984363700C9FE49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 602CAE4C1984363700C9FE49 /* main.m */; };
 		602CAE511984363800C9FE49 /* LPGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 602CAE501984363800C9FE49 /* LPGAppDelegate.m */; };
 		602CAE541984363800C9FE49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602CAE521984363800C9FE49 /* Main.storyboard */; };
@@ -24,7 +25,6 @@
 		607C5D341985A13300501387 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 607C5D311985A13300501387 /* default.png */; };
 		607C5D351985A13300501387 /* sleeping.png in Resources */ = {isa = PBXBuildFile; fileRef = 607C5D321985A13300501387 /* sleeping.png */; };
 		607C5D361985A13300501387 /* grumpy.png in Resources */ = {isa = PBXBuildFile; fileRef = 607C5D331985A13300501387 /* grumpy.png */; };
-		AA79DD631C99C01C0098CD0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA79DD621C99C01C0098CD0D /* Default-568h@2x.png */; };
 		AFEF852A19F082EB00C5C416 /* bucket.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEF852819F082EB00C5C416 /* bucket.png */; };
 		AFEF852B19F082EB00C5C416 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEF852919F082EB00C5C416 /* apple.png */; };
 		C9FFAB031DD5023400614BAA /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFAB021DD5023400614BAA /* Pet.m */; };
@@ -41,12 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35CDAD611E7B4B0700B418F5 /* Default-568h@2x.png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png.png"; sourceTree = "<group>"; };
+		35CDAD641E7B4B2200B418F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		602CAE3D1984363700C9FE49 /* Phonagotchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phonagotchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602CAE401984363700C9FE49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		602CAE421984363700C9FE49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		602CAE441984363700C9FE49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		602CAE481984363700C9FE49 /* Phonagotchi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Phonagotchi-Info.plist"; sourceTree = "<group>"; };
-		602CAE4A1984363700C9FE49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		602CAE4C1984363700C9FE49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		602CAE4E1984363800C9FE49 /* Phonagotchi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Phonagotchi-Prefix.pch"; sourceTree = "<group>"; };
 		602CAE4F1984363800C9FE49 /* LPGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPGAppDelegate.h; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		607C5D311985A13300501387 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 		607C5D321985A13300501387 /* sleeping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleeping.png; sourceTree = "<group>"; };
 		607C5D331985A13300501387 /* grumpy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grumpy.png; sourceTree = "<group>"; };
-		AA79DD621C99C01C0098CD0D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		AFEF852819F082EB00C5C416 /* bucket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bucket.png; sourceTree = "<group>"; };
 		AFEF852919F082EB00C5C416 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 		C9FFAB011DD5023400614BAA /* Pet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pet.h; sourceTree = "<group>"; };
@@ -148,9 +148,9 @@
 		602CAE471984363700C9FE49 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AA79DD621C99C01C0098CD0D /* Default-568h@2x.png */,
+				35CDAD631E7B4B2200B418F5 /* InfoPlist.strings */,
+				35CDAD611E7B4B0700B418F5 /* Default-568h@2x.png.png */,
 				602CAE481984363700C9FE49 /* Phonagotchi-Info.plist */,
-				602CAE491984363700C9FE49 /* InfoPlist.strings */,
 				602CAE4C1984363700C9FE49 /* main.m */,
 				602CAE4E1984363800C9FE49 /* Phonagotchi-Prefix.pch */,
 			);
@@ -220,9 +220,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LPG;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Lighthouse Labs";
 				TargetAttributes = {
+					602CAE3C1984363700C9FE49 = {
+						DevelopmentTeam = HJ323MUWXQ;
+					};
 					602CAE5D1984363900C9FE49 = {
 						TestTargetID = 602CAE3C1984363700C9FE49;
 					};
@@ -252,14 +255,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CDAD621E7B4B0700B418F5 /* Default-568h@2x.png.png in Resources */,
 				607C5D351985A13300501387 /* sleeping.png in Resources */,
 				602CAE591984363900C9FE49 /* Images.xcassets in Resources */,
-				AA79DD631C99C01C0098CD0D /* Default-568h@2x.png in Resources */,
-				602CAE4B1984363700C9FE49 /* InfoPlist.strings in Resources */,
 				602CAE541984363800C9FE49 /* Main.storyboard in Resources */,
 				607C5D341985A13300501387 /* default.png in Resources */,
 				607C5D361985A13300501387 /* grumpy.png in Resources */,
 				AFEF852B19F082EB00C5C416 /* apple.png in Resources */,
+				35CDAD651E7B4B2200B418F5 /* InfoPlist.strings in Resources */,
 				AFEF852A19F082EB00C5C416 /* bucket.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,10 +308,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		602CAE491984363700C9FE49 /* InfoPlist.strings */ = {
+		35CDAD631E7B4B2200B418F5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				602CAE4A1984363700C9FE49 /* en */,
+				35CDAD641E7B4B2200B418F5 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -345,14 +348,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -365,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -384,20 +392,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -407,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HJ323MUWXQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Phonagotchi/Phonagotchi-Prefix.pch";
 				INFOPLIST_FILE = "Phonagotchi/Phonagotchi-Info.plist";
@@ -420,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HJ323MUWXQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Phonagotchi/Phonagotchi-Prefix.pch";
 				INFOPLIST_FILE = "Phonagotchi/Phonagotchi-Info.plist";
